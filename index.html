@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="color-scheme" content="dark light" />
+
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
+
     <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js" defer></script>
   </head>
+
   <body class="page">
     <header class="header decorated-zone">
+      <span class="header__rec" aria-hidden="true">REC</span>
+
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -18,6 +35,7 @@
               День
             </button>
           </li>
+
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
@@ -26,6 +44,7 @@
               Авто
             </button>
           </li>
+
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
@@ -35,6 +54,201 @@
           </li>
         </ul>
       </nav>
+
+      <h1 class="header__title">no focus</h1>
+
+      <p class="header__text title-decor">
+        Что делать, когда не можешь делать ничего<br />
+        Или почему нам так сложно сконцентрироваться, особенно когда очень надо
+      </p>
     </header>
+
+    <main class="content">
+      <section class="section">
+        <h2 class="section__title">Почему сосредоточиться так сложно</h2>
+
+        <ul class="section__list">
+          <li class="section__item">
+            <article class="card">
+              <h3 class="card__title title-decor">Многозадачность</h3>
+              <p class="card__text">
+                Особенно сложно сосредоточиться, когда задач много и все они
+                важные. Мозгу трудно одновременно держать в фокусе несколько
+                дел, поэтому внимание рассеивается, появляются ошибки и
+                усталость.
+              </p>
+            </article>
+          </li>
+
+          <li class="section__item">
+            <article class="card">
+              <h3 class="card__title title-decor">Дофамин</h3>
+              <p class="card__text">
+                Мы часто отвлекаемся на то, что даёт быстрые приятные эмоции:
+                уведомления, лайки, сообщения или короткие видео. Из-за этого
+                мозг привыкает получать лёгкое удовольствие и сложнее
+                возвращается к важной задаче.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section_type_cards">
+        <h2 class="section__title">Что снижает концентрацию внимания?</h2>
+
+        <ul class="section__list section__list_type_cards">
+          <li class="section__item">
+            <article class="card">
+              <h3 class="card__title title-decor">Многозадачность</h3>
+              <p class="card__text">
+                Как концентрация может снижаться из-за многозадачности? Когда
+                человек пытается выполнять несколько дел одновременно, внимание
+                постоянно переключается между задачами. Из-за этого мозг
+                быстрее устаёт, а качество работы становится хуже.
+              </p>
+            </article>
+          </li>
+
+          <li class="section__item">
+            <article class="card">
+              <h3 class="card__title title-decor">Еда</h3>
+              <p class="card__text">
+                Питание тоже влияет на способность сосредоточиться. Если человек
+                пропускает приёмы пищи или ест слишком много сладкого, уровень
+                энергии становится нестабильным, и удерживать внимание
+                становится сложнее.
+              </p>
+            </article>
+          </li>
+
+          <li class="section__item">
+            <article class="card">
+              <h3 class="card__title title-decor">Гаджеты</h3>
+              <p class="card__text">
+                Телефон, уведомления и социальные сети постоянно перетягивают
+                внимание на себя. Даже короткая проверка сообщения может сбить
+                рабочий ритм, после чего человеку нужно время, чтобы снова
+                вернуться к задаче.
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">
+          Как концентрироваться лучше, чем золотая рыбка
+        </h2>
+
+        <div class="section__content">
+          <h3 class="card__title title-decor">5 простых советов</h3>
+
+          <ul class="section__list">
+            <li class="section__item">
+              <article class="card">
+                <h4 class="card__subtitle title-decor">
+                  Представьте небо и облака
+                </h4>
+                <p class="card__text">
+                  Мысли можно представить как облака, которые появляются и
+                  исчезают. Не обязательно сразу реагировать на каждую мысль.
+                  Достаточно заметить её и спокойно вернуться к делу.
+                </p>
+              </article>
+            </li>
+
+            <li class="section__item">
+              <article class="card">
+                <h4 class="card__subtitle title-decor">Включите музыку</h4>
+                <p class="card__text">
+                  Спокойная музыка или фоновый шум могут помочь
+                  сосредоточиться. Главное, чтобы звук не отвлекал, а создавал
+                  комфортную атмосферу для работы.
+                </p>
+              </article>
+            </li>
+
+            <li class="section__item">
+              <article class="card">
+                <h4 class="card__subtitle title-decor">Прогуляйтесь</h4>
+                <p class="card__text">
+                  Небольшая прогулка помогает переключиться, снизить напряжение
+                  и освежить голову. После движения часто становится проще
+                  вернуться к задаче.
+                </p>
+              </article>
+            </li>
+
+            <li class="section__item">
+              <article class="card">
+                <h4 class="card__subtitle title-decor">Хорошо ешьте</h4>
+                <p class="card__text">
+                  Регулярное питание помогает поддерживать энергию. Когда
+                  организм не испытывает сильного голода или перегрузки, мозгу
+                  проще работать спокойно и внимательно.
+                </p>
+              </article>
+            </li>
+
+            <li class="section__item">
+              <article class="card">
+                <h4 class="card__subtitle title-decor">Читайте</h4>
+                <p class="card__text">
+                  Чтение тренирует внимание. В отличие от коротких сообщений и
+                  быстрых видео, книга требует удерживать мысль дольше, поэтому
+                  постепенно помогает развивать концентрацию.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2 class="gallery__title title-decor">А можно в картинках?</h2>
+
+        <div class="gallery__images">
+          <img
+            class="gallery__image"
+            src="./images/sunset.png"
+            alt="Закат на фоне гор"
+            loading="lazy"
+          />
+
+          <img
+            class="gallery__image"
+            src="./images/ice-cream.png"
+            alt="Мороженое на фоне неба"
+            loading="lazy"
+          />
+
+          <img
+            class="gallery__image"
+            src="./images/tape.png"
+            alt="Аудиокассета"
+            loading="lazy"
+          />
+
+          <img
+            class="gallery__image"
+            src="./images/books.png"
+            alt="Книги на полке"
+            loading="lazy"
+          />
+
+          <img
+            class="gallery__image"
+            src="./images/street.png"
+            alt="Освещённая улица ночью"
+            loading="lazy"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="footer__title">focus</h2>
+    </footer>
   </body>
 </html>
